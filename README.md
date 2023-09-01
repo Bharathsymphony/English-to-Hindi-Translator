@@ -13,7 +13,7 @@ Create a Hinglish translation from English text. The text should sound natural a
 Dataset used: (Source: https://huggingface.co/datasets/cfilt/iitb-english-hindi)
 
 **Evaluation Metric**
-Bilingual Evaluation Understudty Score (BLEU) can be used to Evaluate the model.
+* Bilingual Evaluation Understudty Score (BLEU) can be used to Evaluate the model.
 
 from nltk.translate.bleu_score import sentence_bleu
 
